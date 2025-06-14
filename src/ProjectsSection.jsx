@@ -61,7 +61,7 @@ const ProjectsSection = () => {
               <img
                 src={src}
                 alt={`Project ${idx + 1}`}
-                className="rounded-sm w-full h-[500px] object-cover"
+                className="rounded-sm w-full h-[50svh] object-cover"
               />
             </div>
           ))}

@@ -12,7 +12,9 @@ function App() {
         <div className="min-h-screen flex flex-col">
             <Header />
             
-            <main className="flex-grow max-w">
+            <main className="flex-grow w-screen overflow-hidden">
+
+
                 <HeroContent/>
                 <HeroContent2/>
                 <Content3/>

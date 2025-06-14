@@ -6,12 +6,13 @@ const HeroContent4 = () => {
       <span className="text-[14px] text-yellow-300">
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
       </span>
-      <br/><br/>
+      <br />
+      <br />
       <span className="text-3xl font-bold">
         Our Services Beyond Expectations
       </span>
-      <div className="flex flex-row justify-between m-10 w-2/3">
-        <div className="text-left text-[14px] w-1/3 rounded-md shadow-lg px-6 pt-8 mx-3 hover:scale-[1.1] transition-all flex justify-end flex-col">
+      <div className="flex md:flex-row flex-col justify-between px-6 m-10 gap-y-4 lg:w-2/3 w-full">
+        <div className="text-left text-[14px] md:w-1/3 rounded-md shadow-lg px-6 pt-8 mx-3 my-4 hover:scale-[1.1] transition-all flex justify-end items-stretch flex-col">
           <span className="font-bold text-2xl ">
             Architectural
             <br /> Design
@@ -32,7 +33,7 @@ const HeroContent4 = () => {
             <img src="image5.png" className="w-full h-auto object-cover "></img>
           </div>
         </div>
-        <div className="text-left text-[14px] w-1/3 rounded-md shadow-lg px-6 pt-8 mx-3 hover:scale-[1.1] transition-all flex justify-end flex-col">
+        <div className="text-left text-[14px] md:w-1/3 rounded-md shadow-lg px-6 pt-8 mx-3 my-4 hover:scale-[1.1] transition-all flex justify-end items-stretch flex-col">
           <span className="font-bold text-2xl ">
             Structural
             <br /> Engineering
@@ -52,7 +53,7 @@ const HeroContent4 = () => {
             <img src="image5.png" className="w-full h-auto object-cover "></img>
           </div>
         </div>
-        <div className="text-left text-[14px] w-1/3 rounded-md shadow-lg px-6 pt-8 mx-3 hover:scale-[1.1] transition-all flex flex-col justify-end  ">
+        <div className="text-left text-[14px] md:w-1/3 rounded-md shadow-lg px-6 pt-8 mx-3 my-4 hover:scale-[1.1] transition-all flex flex-col justify-end items-stretch ">
           <span className="font-bold text-2xl ">
             Steel & Rebar
             <br /> Detailing
@@ -68,7 +69,6 @@ const HeroContent4 = () => {
           </a>
           <br />
           <br />
-          
           <div className="-mx-6">
             <img src="image5.png" className="w-full h-auto object-cover "></img>
           </div>

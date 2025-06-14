@@ -11,9 +11,9 @@ const ClientsSection = () => {
         Clients Who Trust Us
       </span>
       <br/>
-    <div className="flex flex-row justify-evenly w-2/3">
+    <div className="grid grid-cols-3 md:grid-cols-6 gap-y-3 md:px-4 gap-x-4 lg:gap-x-1 row-3 lg:w-2/3">
         <img src="image6.png" className="object-cover" alt="" />
-        <img src="image6.png" className=" object-cover" alt="" />
+        <img src="image6.png" className="object-cover" alt="" />
         <img src="image6.png" className="  object-cover" alt="" />
         <img src="image6.png" className="  object-cover" alt="" />
         <img src="image6.png" className="  object-cover" alt="" />

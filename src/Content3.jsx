@@ -3,8 +3,8 @@ import { Award, CheckCircle, Users, CircleArrowRight } from "lucide-react";
 
 const Content3 = () => {
   return (
-    <div className="flex flex-row mb-10">
-      <div className="bg-yellow-300 text-black w-1/2 px-12 py-10 pb-20">
+    <div className="flex flex-col lg:flex-row mb-10">
+      <div className="bg-yellow-300 text-black lg:w-1/2 px-12 py-10 pb-20">
         <span className="font-bold text-3xl ">
           We Help You Build On Your Past And <br />
           Prepare For Your Future
@@ -44,7 +44,7 @@ const Content3 = () => {
           Know More
         </a>
       </div>
-      <div className="bg-[url('image4.png')] bg-cover bg-center w-1/2 h-auto"></div>
+      <div className="bg-[url('image4.png')] bg-cover bg-center w-full md:w-1/2 h-auto"></div>
     </div>
   );
 };
